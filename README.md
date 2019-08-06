@@ -1,7 +1,7 @@
 # PCA-KL
 A parametric PCA for unsupervised dimensionality reduction 
 
-PCA-KL is a parametric algorithm for unsupervised dimensionality reduction based on the computation of a surrogate for the covariance matrix of the data using the relative entropy between Gaussian distributions instead of the usual Euclidean distance between the data points. The PCA-KL algorithm can be summarized as:
+PCA-KL is a parametric algorithm for unsupervised dimensionality reduction based on the computation of the entropic covariance matrix, a surrogate for the covariance matrix of the data using the relative entropy between Gaussian distributions instead of the usual Euclidean distance between data points. The PCA-KL algorithm can be summarized as:
 
 1. From the input data build an undirected proximity graph using the KNN rule;
 2. For each patch, that is, a central point and its neighbors compute the mean and variance of each feature:
