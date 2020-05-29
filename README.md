@@ -1,5 +1,5 @@
 # PCA-KL
-A parametric PCA for unsupervised dimensionality reduction 
+PCA-KL: a relative entropy dimensionality reduction method for unsupervised metric learning
 
 PCA-KL is a parametric algorithm for unsupervised dimensionality reduction based on the computation of the entropic covariance matrix, a surrogate for the covariance matrix of the data using the relative entropy between Gaussian distributions instead of the usual Euclidean distance between data points. The PCA-KL algorithm can be summarized as:
 
